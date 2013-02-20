@@ -14,4 +14,7 @@ Of these effects, the only one that needed a design was the distortion, since yo
 Normalize signal to (±1) and apply gain (distortion knob)
 Apply nonlinearity (this is built into the circuitry in practice, typically an op amp, diodes, and/or transistors)
 Shape signal with tone section
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1aa0b37f56e4bea132cef76997371ffe8f89ed39
