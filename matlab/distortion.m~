@@ -9,11 +9,11 @@ function [out] = distortion(in,gain,tone,fs)
 % GAIN SECTION - normalize signal and apply gain
 B=in;
 %B=B/max(abs(B));
-B=gain*B;
+B=gain/2*B;
 
 % NONLINEARITY - error function, which ends asymptotically at 1 and is
 % mostly linear close to values at +/- 0
-B=erf(B);
+B=erf(3*B);
 
 % TONE SECTION - 2 overlapping 1st order butterworth filters
 % From several test trials, I chose to lowpass at 1.2kHz and highpass at 265Hz

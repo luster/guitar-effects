@@ -1,7 +1,10 @@
 % Ethan Lusterman
-% ECE 313 Music & Engineering
-% Fall 2012
+% ECE 313 Music & Engineering, Fall 2012
 % Project 4: Effects
+% The Cooper Union, New York, NY
+
+% Set Paths
+addpath('../wav/');
 
 % 1 - Compressor
 [hc,hcFS]=wavread('harmonyChorus');
